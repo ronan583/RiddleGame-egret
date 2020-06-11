@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI1" width="640" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*" xmlns:ns1="*">
+	<e:Image id="bg" top="0" bottom="0" left="0" right="0" scale9Grid="131,149,787,458" source="main_bg_png"/>
+	<e:Image id="title" left="38" top="73" source="main_img_title0_png" anchorOffsetX="0"/>
+	<e:Image id="board" anchorOffsetX="0" anchorOffsetY="0" top="149" source="main_img_boardbg1_png" width="583.62" height="585.31" horizontalCenter="0"/>
+	<e:Image id="riddleTitle" source="main_img_title_png" y="178.85" horizontalCenter="5"/>
+
+	<e:Button id="openUI2" label="查看谜底" y="45.33" anchorOffsetX="0" width="154" anchorOffsetY="0" height="40.01" horizontalCenter="0" visible="false"/>
+	<e:Button id="seeAnswerBtn" label="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="241.5" top="571">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="main_btn_seeanswer0_png" source.down="main_btn_seeanswer1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="testBtn" label="重置次数" y="300.1" anchorOffsetX="0" width="108.66" anchorOffsetY="0" height="37.34" horizontalCenter="253.5" visible="false"/>
+	<e:Button id="shareBtn" label="" y="182.28" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="238.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="main_btn_share0_png" source.down="main_btn_share1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="nextQstBtn" label="" anchorOffsetX="0" anchorOffsetY="0" top="676" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="main_btn_next0_png" source.down="main_btn_next1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="star" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-232" top="580" source="main_img_star_png"/>
+	<e:Label id="remainNumLabel" text="9" x="64.4" size="33" fontFamily="Microsoft YaHei" textColor="0x000000" top="609" textAlign="center" anchorOffsetX="0" width="45.34"/>
+	<e:Label id="msgLabel" text="" x="104" y="330" anchorOffsetX="0" width="474" anchorOffsetY="0" height="58" textAlign="center" verticalAlign="middle" visible="false"/>
+	<e:Label id="questionLabel" text="明又明，亮又亮\n一团火球挂天上\n冬天呆的时间短\n夏天呆的时间长\n（打一自然现象）" anchorOffsetX="0" width="361.94" anchorOffsetY="0" height="252.24" fontFamily="Microsoft YaHei" size="33" textColor="0x483e1c" horizontalCenter="1" verticalAlign="middle" textAlign="center" lineSpacing="10" top="272"/>
+	<e:Label id="tipLabel" text="打一自然现象" anchorOffsetX="0" width="451.33" anchorOffsetY="0" height="56.66" fontFamily="Microsoft YaHei" size="25" textColor="0x483E1C" horizontalCenter="-0.5" verticalAlign="middle" textAlign="center" lineSpacing="10" top="530"/>
+
+	<e:Group id="optionGroup" width="594.36" height="229.88" y="788.63" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout paddingLeft="20" horizontalGap="15" paddingTop="5" verticalGap="12"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+	<e:Image id="selectedCharBg0" x="133.05" y="588.01" source="main_img_itembg2_png" width="80" height="80"/>
+	<e:Image x="228.2" y="588.01" source="main_img_itembg2_png" width="80" height="80" id="selectedCharBg1"/>
+	<e:Image x="323.35" y="588.01" source="main_img_itembg2_png" width="80" height="80" id="selectedCharBg2"/>
+	<e:Image x="418.5" y="588.01" source="main_img_itembg2_png" width="80" height="80" id="selectedCharBg3"/>
+	<ns1:CharOptionButton id="selectedChar0" label="" x="158.65" y="589.01" skinName="CharButtonSkin" isUp="false" scaleX="1" scaleY="1"/>
+	<ns1:CharOptionButton id="selectedChar1" label="" x="234.65" y="589.01" skinName="CharButtonSkin" isUp="false"/>
+	<ns1:CharOptionButton id="selectedChar2" label="" x="314.65" y="589.01" skinName="CharButtonSkin" isUp="false"/>
+	<ns1:CharOptionButton label="" x="394.65" y="589.01" skinName="CharButtonSkin" id="selectedChar3" isUp="false"/>
+	<e:Label id="answerLabel" text="答案：太阳" anchorOffsetX="0" width="287.33" anchorOffsetY="0" height="73.33" textAlign="center" textColor="0x483e1c" size="33" fontFamily="Microsoft YaHei" verticalAlign="middle" horizontalCenter="-0.5" top="543" visible="false"/>
+	<e:Image source="loading_bar2_png" x="0" y="0" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image source="loading_bar1_png" x="0" y="0" scale9Grid="13,0,277,27" anchorOffsetX="0" width="452" visible="false"/>
+
+</e:Skin>

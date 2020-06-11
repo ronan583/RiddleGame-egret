@@ -1,0 +1,32 @@
+@@ -0,0 +1,24 @@
+# ---> Java
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.DS_Store
+RiddlesGameClient/bin-debug/
+RiddlesGameClient/bin-release/
+RiddlesGameClient/libs/
+RiddlesGameClient/manifest.json
+RiddlesGameClient/.wing/exml.json
+RiddlesGameClient/template/runtime/native_require.js
+RiddlesGameClient/debug.log
+RiddlesGameClient/template/runtime/native_require.js
+GuessGameClient/bin-debug/
+GuessGameClient/bin-release/
+GuessGameClient/libs/
+GuessGameClient/manifest.json
+GuessGameClient/.wing/exml.json
+GuessGameClient/template/runtime/native_require.js
+GuessGameClient/debug.log
+GuessGameClient/template/runtime/native_require.js

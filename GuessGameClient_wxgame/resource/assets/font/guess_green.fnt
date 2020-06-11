@@ -1,0 +1,11 @@
+{"file":"guess_green.png","frames":{
+"9":{"x":1,"y":48,"w":31,"h":46,"offX":0,"offY":0,"sourceW":31,"sourceH":46},
+"0":{"x":36,"y":1,"w":32,"h":46,"offX":0,"offY":0,"sourceW":32,"sourceH":46},
+"1":{"x":99,"y":49,"w":19,"h":45,"offX":0,"offY":1,"sourceW":19,"sourceH":46},
+"2":{"x":1,"y":191,"w":30,"h":45,"offX":0,"offY":1,"sourceW":30,"sourceH":46},
+"3":{"x":1,"y":143,"w":30,"h":46,"offX":0,"offY":0,"sourceW":30,"sourceH":46},
+"4":{"x":1,"y":1,"w":33,"h":45,"offX":0,"offY":1,"sourceW":33,"sourceH":46},
+"5":{"x":67,"y":49,"w":30,"h":46,"offX":0,"offY":0,"sourceW":30,"sourceH":46},
+"6":{"x":70,"y":1,"w":31,"h":46,"offX":0,"offY":0,"sourceW":31,"sourceH":46},
+"7":{"x":1,"y":96,"w":31,"h":45,"offX":0,"offY":1,"sourceW":31,"sourceH":46},
+"8":{"x":34,"y":49,"w":31,"h":46,"offX":0,"offY":0,"sourceW":31,"sourceH":46}}}

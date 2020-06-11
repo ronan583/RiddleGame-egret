@@ -1,0 +1,324 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,riddleName_json,riddle_json,guess_countdown_fnt,guess_countdown_png,guess_green_fnt,guess_green_png,guess_purple_fnt,guess_purple_png,guess_red_fnt,guess_red_png,choose_cover_chengyu_png,choose_cover_film_png,choose_cover_plant_png,choose_cover_shuihu_png,choose_cover_star_png,choose_mask_png,main_btn_again_png,main_btn_back_png,main_btn_bingo_png,main_btn_change_png,main_btn_share_png,main_btn_skip_png,main_btn_start_png,main_img_bg_png,main_img_board_png,main_labelready_png,main_result_labelbingo_png,main_result_labelpercent_png,main_result_labeltotal_png,main_titlelabel_choose_png,main_titlelabel_store_png,main_titlelabel_title_png,main_type_chengyu_png,main_type_film_png,main_type_plant_png,main_type_shuihu_png,main_type_star_png,choose_boardbg_png",
+			"name": "preload"
+		},
+		{
+			"keys": "",
+			"name": "GameStartScene"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "riddleName.json",
+			"type": "json",
+			"name": "riddleName_json"
+		},
+		{
+			"url": "riddle.json",
+			"type": "json",
+			"name": "riddle_json"
+		},
+		{
+			"url": "assets/font/guess_countdown.fnt",
+			"type": "font",
+			"name": "guess_countdown_fnt"
+		},
+		{
+			"url": "assets/font/guess_countdown.png",
+			"type": "image",
+			"name": "guess_countdown_png"
+		},
+		{
+			"name": "guess_green_fnt",
+			"type": "font",
+			"url": "assets/font/guess_green.fnt"
+		},
+		{
+			"name": "guess_green_png",
+			"type": "image",
+			"url": "assets/font/guess_green.png"
+		},
+		{
+			"name": "guess_purple_fnt",
+			"type": "font",
+			"url": "assets/font/guess_purple.fnt"
+		},
+		{
+			"name": "guess_purple_png",
+			"type": "image",
+			"url": "assets/font/guess_purple.png"
+		},
+		{
+			"name": "guess_red_fnt",
+			"type": "font",
+			"url": "assets/font/guess_red.fnt"
+		},
+		{
+			"name": "guess_red_png",
+			"type": "image",
+			"url": "assets/font/guess_red.png"
+		},
+		{
+			"name": "choose_cover_chengyu_png",
+			"type": "image",
+			"url": "assets/choose_cover_chengyu.png"
+		},
+		{
+			"name": "choose_cover_film_png",
+			"type": "image",
+			"url": "assets/choose_cover_film.png"
+		},
+		{
+			"name": "choose_cover_plant_png",
+			"type": "image",
+			"url": "assets/choose_cover_plant.png"
+		},
+		{
+			"name": "choose_cover_shuihu_png",
+			"type": "image",
+			"url": "assets/choose_cover_shuihu.png"
+		},
+		{
+			"name": "choose_cover_star_png",
+			"type": "image",
+			"url": "assets/choose_cover_star.png"
+		},
+		{
+			"name": "choose_mask_png",
+			"type": "image",
+			"url": "assets/choose_mask.png"
+		},
+		{
+			"name": "main_btn_again_png",
+			"type": "image",
+			"url": "assets/main_btn_again.png"
+		},
+		{
+			"name": "main_btn_back_png",
+			"type": "image",
+			"url": "assets/main_btn_back.png"
+		},
+		{
+			"name": "main_btn_bingo_png",
+			"type": "image",
+			"url": "assets/main_btn_bingo.png"
+		},
+		{
+			"name": "main_btn_change_png",
+			"type": "image",
+			"url": "assets/main_btn_change.png"
+		},
+		{
+			"name": "main_btn_share_png",
+			"type": "image",
+			"url": "assets/main_btn_share.png"
+		},
+		{
+			"name": "main_btn_skip_png",
+			"type": "image",
+			"url": "assets/main_btn_skip.png"
+		},
+		{
+			"name": "main_btn_start_png",
+			"type": "image",
+			"url": "assets/main_btn_start.png"
+		},
+		{
+			"name": "main_img_bg_png",
+			"type": "image",
+			"url": "assets/main_img_bg.png"
+		},
+		{
+			"name": "main_img_board_png",
+			"type": "image",
+			"url": "assets/main_img_board.png"
+		},
+		{
+			"name": "main_labelready_png",
+			"type": "image",
+			"url": "assets/main_labelready.png"
+		},
+		{
+			"name": "main_result_labelbingo_png",
+			"type": "image",
+			"url": "assets/main_result_labelbingo.png"
+		},
+		{
+			"name": "main_result_labelpercent_png",
+			"type": "image",
+			"url": "assets/main_result_labelpercent.png"
+		},
+		{
+			"name": "main_result_labeltotal_png",
+			"type": "image",
+			"url": "assets/main_result_labeltotal.png"
+		},
+		{
+			"name": "main_titlelabel_choose_png",
+			"type": "image",
+			"url": "assets/main_titlelabel_choose.png"
+		},
+		{
+			"name": "main_titlelabel_store_png",
+			"type": "image",
+			"url": "assets/main_titlelabel_store.png"
+		},
+		{
+			"name": "main_titlelabel_title_png",
+			"type": "image",
+			"url": "assets/main_titlelabel_title.png"
+		},
+		{
+			"name": "main_type_chengyu_png",
+			"type": "image",
+			"url": "assets/main_type_chengyu.png"
+		},
+		{
+			"name": "main_type_film_png",
+			"type": "image",
+			"url": "assets/main_type_film.png"
+		},
+		{
+			"name": "main_type_plant_png",
+			"type": "image",
+			"url": "assets/main_type_plant.png"
+		},
+		{
+			"name": "main_type_shuihu_png",
+			"type": "image",
+			"url": "assets/main_type_shuihu.png"
+		},
+		{
+			"name": "main_type_star_png",
+			"type": "image",
+			"url": "assets/main_type_star.png"
+		},
+		{
+			"name": "choose_boardbg_png",
+			"type": "image",
+			"url": "assets/choose_boardbg.png"
+		}
+	]
+}

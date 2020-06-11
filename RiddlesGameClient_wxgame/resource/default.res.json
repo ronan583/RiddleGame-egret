@@ -1,0 +1,242 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,main_bg_png,riddles_json,loading_bar1_png,loading_bar2_png",
+			"name": "preload"
+		},
+		{
+			"keys": "main_img_title0_png,main_img_boardbg0_png,main_btn_share0_png,main_btn_seeanswer0_png,main_btn_next0_png,main_btn_next1_png,main_btn_seeanswer1_png,main_btn_share1_png,main_img_star_png,main_img_right_png,main_img_itembg2_png,main_img_itembg1_png,main_img_itembg_png,main_img_boardbg1_png,main_img_wrong_png,main_img_title_png",
+			"name": "GameUI1"
+		},
+		{
+			"keys": "",
+			"name": "GameUI2"
+		},
+		{
+			"keys": "loading_bar1_png,loading_bar2_png,main_bg_png",
+			"name": "loadingUI"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/main_bg.png",
+			"type": "image",
+			"name": "main_bg_png"
+		},
+		{
+			"url": "assets/main_btn_next0.png",
+			"type": "image",
+			"name": "main_btn_next0_png"
+		},
+		{
+			"url": "assets/main_btn_next1.png",
+			"type": "image",
+			"name": "main_btn_next1_png"
+		},
+		{
+			"url": "assets/main_btn_seeanswer0.png",
+			"type": "image",
+			"name": "main_btn_seeanswer0_png"
+		},
+		{
+			"url": "assets/main_btn_seeanswer1.png",
+			"type": "image",
+			"name": "main_btn_seeanswer1_png"
+		},
+		{
+			"url": "assets/main_btn_share0.png",
+			"type": "image",
+			"name": "main_btn_share0_png"
+		},
+		{
+			"url": "assets/main_btn_share1.png",
+			"type": "image",
+			"name": "main_btn_share1_png"
+		},
+		{
+			"url": "assets/main_img_boardbg0.png",
+			"type": "image",
+			"name": "main_img_boardbg0_png"
+		},
+		{
+			"url": "assets/main_img_star.png",
+			"type": "image",
+			"name": "main_img_star_png"
+		},
+		{
+			"url": "assets/main_img_title0.png",
+			"type": "image",
+			"name": "main_img_title0_png"
+		},
+		{
+			"url": "config/riddles.json",
+			"type": "json",
+			"name": "riddles_json"
+		},
+		{
+			"url": "assets/main_img_wrong.png",
+			"type": "image",
+			"name": "main_img_wrong_png"
+		},
+		{
+			"url": "assets/main_img_boardbg1.png",
+			"type": "image",
+			"name": "main_img_boardbg1_png"
+		},
+		{
+			"url": "assets/main_img_itembg.png",
+			"type": "image",
+			"name": "main_img_itembg_png"
+		},
+		{
+			"url": "assets/main_img_itembg1.png",
+			"type": "image",
+			"name": "main_img_itembg1_png"
+		},
+		{
+			"url": "assets/main_img_itembg2.png",
+			"type": "image",
+			"name": "main_img_itembg2_png"
+		},
+		{
+			"url": "assets/main_img_right.png",
+			"type": "image",
+			"name": "main_img_right_png"
+		},
+		{
+			"url": "assets/main_img_title.png",
+			"type": "image",
+			"name": "main_img_title_png"
+		},
+		{
+			"url": "assets/loading_bar1.png",
+			"type": "image",
+			"name": "loading_bar1_png"
+		},
+		{
+			"url": "assets/loading_bar2.png",
+			"type": "image",
+			"name": "loading_bar2_png"
+		}
+	]
+}

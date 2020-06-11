@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoreChooseUISkin" width="640" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="main_img_bg_png" left="0" top="0" right="0" bottom="0"/>
+	<e:Image id="boardBg" source="choose_boardbg_png" anchorOffsetX="0" anchorOffsetY="0" left="23" right="17" top="142" bottom="111" scale9Grid="87,73,526,993"/>
+	<e:Button id="backBtn" label="" x="0" y="40">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="main_btn_back_png" source.down="main_btn_back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="titleImg" x="80" y="50" source="main_titlelabel_choose_png"/>
+	<e:Scroller id="storeScroller" left="23" right="17" top="178" bottom="163">
+		<e:Group anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group width="262" height="335" x="83" y="340">
+				<e:Image id="cover0" source="choose_cover_chengyu_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Label id="info0" text="词数99(63%)" y="273.34" size="33" fontFamily="Microsoft YaHei" bold="true" textAlign="center" anchorOffsetX="0" width="237.33" horizontalCenter="-0.5"/>
+				<e:Image id="mask0" source="choose_mask_png" x="0" y="0"/>
+			</e:Group>
+			<e:Group width="262" height="335" x="93" y="350">
+				<e:Image id="cover1" x="0" y="0" scaleX="1" scaleY="1" source="choose_cover_film_png"/>
+				<e:Label text="词数99(63%)" y="273.34" size="33" fontFamily="Microsoft YaHei" bold="true" id="info1" textAlign="center" anchorOffsetX="0" width="237.33" horizontalCenter="-0.5"/>
+				<e:Image source="choose_mask_png" x="0" y="0" id="mask1"/>
+			</e:Group>
+			<e:Group width="262" height="335" x="103" y="360">
+				<e:Image id="cover2" x="0" y="0" scaleX="1" scaleY="1" source="choose_cover_star_png"/>
+				<e:Label text="词数99(63%)" y="273.34" size="33" fontFamily="Microsoft YaHei" bold="true" id="info2" textAlign="center" anchorOffsetX="0" width="237.33" horizontalCenter="-0.5"/>
+				<e:Image source="choose_mask_png" x="0" y="0" id="mask2"/>
+			</e:Group>
+			<e:Group width="262" height="335" x="113" y="370">
+				<e:Image id="cover3" x="0" y="0" scaleX="1" scaleY="1" source="choose_cover_plant_png"/>
+				<e:Label text="词数99(63%)" y="273.34" size="33" fontFamily="Microsoft YaHei" bold="true" id="info3" textAlign="center" anchorOffsetX="0" width="237.33" horizontalCenter="-0.5"/>
+				<e:Image source="choose_mask_png" x="0" y="0" id="mask3"/>
+			</e:Group>
+			<e:Group width="262" height="335" x="123" y="380">
+				<e:Image id="cover4" x="0" y="0" scaleX="1" scaleY="1" source="choose_cover_shuihu_png"/>
+				<e:Label text="词数99(63%)" y="273.34" size="33" fontFamily="Microsoft YaHei" bold="true" id="info4" textAlign="center" anchorOffsetX="0" width="237.33" horizontalCenter="-0.5"/>
+				<e:Image source="choose_mask_png" x="0" y="0" id="mask4"/>
+			</e:Group>
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" requestedColumnCount="2" horizontalGap="15" verticalGap="14" paddingRight="0" paddingLeft="30"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="testBtn" label="解锁接口" x="300" y="99" anchorOffsetX="0" width="98" anchorOffsetY="0" height="36"/>
+	<e:Group id="testGrp" width="200" height="200" x="300" y="99">
+		<e:Button id="expand0" label="chengyu" x="33" y="-63" anchorOffsetX="0" width="98" anchorOffsetY="0" height="36" scaleX="1" scaleY="1"/>
+		<e:Button label="film" x="43" y="-53" anchorOffsetX="0" width="98" anchorOffsetY="0" height="36" id="expand1" scaleX="1" scaleY="1"/>
+		<e:Button label="star" x="53" y="-43" anchorOffsetX="0" width="98" anchorOffsetY="0" height="36" id="expand2" scaleX="1" scaleY="1"/>
+		<e:Button label="plant" x="63" y="-33" anchorOffsetX="0" width="98" anchorOffsetY="0" height="36" id="expand3" scaleX="1" scaleY="1"/>
+		<e:Button label="shuihu" x="73" y="-23" anchorOffsetX="0" width="98" anchorOffsetY="0" height="36" id="expand4" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:VerticalLayout gap="-2"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

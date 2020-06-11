@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToastAnimUISkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="140" height="60" horizontalCenter="0" verticalCenter="0" fillColor="0xfcfcfc" strokeAlpha="0" ellipseWidth="30" ellipseHeight="30" fillAlpha="1" visible="false"/>
+	<e:Label id="toastLabel" text="复制成功" fontFamily="Microsoft YaHei" size="15" textColor="0x232323" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="animImage" x="-44.42" y="107.13" anchorOffsetX="11.6" anchorOffsetY="8.8" source="main_img_right_png"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+我自己还没做过微信小程序的项目以下是我的个人感觉，根据实际情况调整。
+
+
+迁移代码列表如下：
+	Http  负责http的请求访问
+	PopUpManager 面板弹出管理类
+	DragonAnim 龙骨动画包装类
+	GameLayerManager 游戏容器类
+
+新增 DLIYMsgCenter 不使用MVC 用简易消息通知替代
+	UIMng 建议UI控制
+
+微信的项目js 应该是放入到微信里面加载 包体不能超过4M 现在拆包可以到8M
+现阶段建议先按照不超过4M做。
+	
+
+*.因为不是native项目，并且项目比较小，还是建议散图加载
+	1. 建议项目运行机制是UI需要加载的时候临时加载资源（from server）
+	这个配置建议在default.res.json 里面设置不同的UI组
+	样例里面做了两个UI的样例
+	
+	2.看一下Main的init方法，注意里面的两个重要部分
+		a.注册DLIYMsgCenter
+		b.注册UI   uiname uiresgroup uiclass
+		
+	3.Main ts文件里面的onButtonClick 里面有http访问的样例
+	
+	4.两个UI之间的通信 看UI1的构造函数 UI2的点击事件处理 其实还是DLIYMsgCenter
+	
+	** DLIYMsgCenter 可以注册方法 和 IMsgHandler 主要是为了方便使用
